@@ -17,7 +17,7 @@
 
 .head {
     width: 100vw;
-    background: #FFFFFF 0 0 no-repeat padding-box;
+    background: var(--color-white) 0 0 no-repeat padding-box;
     box-shadow: 0 3px 6px #00000029;
     opacity: 1;
 }
@@ -39,7 +39,7 @@
     text-align: left;
     font: normal normal 300 32px/37px Raleway;
     letter-spacing: 0;
-    color: #08A6E4;
+    color: var(--color-primary);
     opacity: 1;
     text-decoration: none;
 }
@@ -47,7 +47,7 @@
 .nav__ul {
     display: flex;
     text-align: center;
-    color: black;
+    color: var(--color-black);
 }
 
 .nav__li {
@@ -55,12 +55,47 @@
     font-weight: bold;
     font-size: 11px;
     letter-spacing: 0.25rem;
-    color: #A5A5A5;
+    color: var(--color-grey);
     opacity: 1;
     margin: 20px;
     text-decoration: none;
 }
 
 .nav__li:hover, .nav__li:focus {
-    color: black;
+    color: var(--color-black);
+}
+
+.banner {
+    text-align: center;
+    color: var(--color-black);
+    opacity: 1;
+    margin-top: 200px;
+    letter-spacing: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font: normal normal normal 49px/57px Raleway;
+}
+
+.banner__text {
+    font: normal normal normal 16px/22px Open Sans;
+    margin: 20px;
+}
+
+.button__banner {
+    background: var(--color-primary) 0 0 no-repeat padding-box;
+    box-shadow: 5px 10px 14px var(--color-primary-shadow);
+    border-radius: 40px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal bold 16px/22px Open Sans;
+    letter-spacing: 0;
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 25px 160px 25px 160px;
+    margin-top: 20px;
+    align-self: center;
 }
