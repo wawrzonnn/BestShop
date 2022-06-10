@@ -99,3 +99,79 @@ h1 {
     margin-top: 20px;
     align-self: center;
 }
+
+h2 {
+    text-align: center;
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0;
+    color: var(--color-black);
+    opacity: 1;
+    margin: 100px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 230px 0 230px;
+}
+
+.icons__img {
+    margin-left: 60px;
+    position: relative;
+}
+
+.icons__number {
+    text-align: center;
+    font: normal normal 800 20px/24px Raleway;
+    letter-spacing: 0.4rem;
+    color: var(--color-black);
+    opacity: 1;
+    margin: 20px 0 20px 0;
+}
+
+.icons__text {
+    text-align: center;
+    font: normal normal normal 17px/20px Raleway;
+    letter-spacing: 0;
+    color: var(--color-grey);
+    opacity: 1;
+}
+
+.icon__1::before {
+    content: "";
+    display: block;
+    width: 62px;
+    height: 62px;
+    background: var(--color-redish) 0 0 no-repeat padding-box;
+    opacity: 0.8;
+    position: absolute;
+    border-radius: 50%;
+    left: 535px;
+    bottom: -350px;
+}
+
+.icon__2::before {
+    content: "";
+    display: block;
+    width: 62px;
+    height: 62px;
+    background: var(--color-primary) 0 0 no-repeat padding-box;
+    opacity: 0.8;
+    position: absolute;
+    border-radius: 50%;
+    left: 930px;
+    bottom: -350px;
+}
+
+.icon__3::before {
+    content: "";
+    display: block;
+    width: 62px;
+    height: 62px;
+    background: var(--color-green) 0 0 no-repeat padding-box;
+    opacity: 0.8;
+    position: absolute;
+    border-radius: 50%;
+    right: 525px;
+    bottom: -350px;
+}
